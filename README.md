@@ -95,9 +95,9 @@ The following table provides a comparison between the two of them:
 
 Streams and their operations provide a concise, easy-to-read method to process data.
 
-One thing that might not be obivous is know the `lazy vs eager `approaches differs between them. Let's take the this example:
+One thing that might not be obivous is know the `lazy vs eager` approaches differs between them. Let's take the this example:
 
-```java
+``` java
 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
 Stream<Integer> lazyStream = numbers
@@ -120,7 +120,7 @@ Because of this property you can declare a pipeline before and use it when it's 
 ## How do these functions work under the hood?
 
 ## How does java implement Functional Programming?
-Although Java is a class based, object-oriented language, since Java 8 support for functional programming was added, and with time a lot of features were implementend:
+Although Java is a class based, object-oriented language, since Java 8 support for functional programming was added, and with time a lot of features were implemented:
 
 * Lambda expressions
 * Method references
